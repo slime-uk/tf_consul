@@ -24,7 +24,7 @@ module "vpc" {
 }
 
 module "consul" {
-  source           = "github.com/turnbullpress/tf_consul.git"
+  source           = "github.com/slime-uk/tf_consul.git"
   environment      = "${var.environment}"
   token            = "${var.token}"
   encryption_key   = "${var.encryption_key}"
